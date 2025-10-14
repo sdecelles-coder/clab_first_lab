@@ -1,0 +1,13 @@
+name: firstlab
+
+topology:
+  nodes:
+    ceos-1:
+      kind: arista_ceos
+      image: ceos:4.32.0F
+    ceos-2:
+      kind: arista_ceos
+      image: ceos:4.32.0F
+
+  links:
+    - endpoints: ["ceos-1:eth1", "ceos-2:eth1"]
