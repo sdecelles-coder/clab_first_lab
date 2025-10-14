@@ -11,3 +11,4 @@ topology:
 
   links:
     - endpoints: ["ceos-1:eth1", "ceos-2:eth1"]
+    patate
