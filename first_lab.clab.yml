@@ -2,12 +2,12 @@ name: firstlab
 
 topology:
   nodes:
-    ceos-1:
-      kind: arista_ceos
-      image: ceos:4.32.0F
-    ceos-2:
-      kind: arista_ceos
-      image: ceos:4.32.0F
+    srl-1:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux:24.10
+    srl-2:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux:24.10
 
   links:
-    - endpoints: ["ceos-1:eth1", "ceos-2:eth1"]
+    - endpoints: ["srl-1:ethernet-1/1", "srl-2:ethernet-1/1"]
