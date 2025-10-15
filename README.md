@@ -1,6 +1,6 @@
-## Download des images requis pour ce lab
+# Download des images requis pour ce lab
 
-### Nokia
+## Nokia
 C'est la manière la plus simple de préparer un lab.
 
 To download the [ghcr.io/nokia/srlinux:24.10](http://ghcr.io/nokia/srlinux:24.10) container image, use the docker pull command. This command retrieves the specified image from the GitHub Container Registry (GHCR) and stores it locally on your system, provided you have Docker installed and running.
@@ -18,3 +18,11 @@ docker images
 ```
 
 This will display a list of all Docker images available on your system
+
+## Credential Nokia
+```
+admin
+```
+```
+NokiaSrl1!
+```
